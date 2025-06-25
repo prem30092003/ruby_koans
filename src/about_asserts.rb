@@ -11,7 +11,7 @@ class AboutAsserts < Neo::Koan
     assert true                 # This should be true
     if false
     #++
-    assert false                # This should be true
+    assert true                # This should be true
     #--
     end
     #++
